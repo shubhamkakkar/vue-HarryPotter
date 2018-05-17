@@ -1,0 +1,71 @@
+body {
+    margin: 30px;
+}
+
+nav {
+    background: #fff;
+    opacity: 0.8;
+    border-bottom: 2px solid red;
+}
+
+section {
+    border: 2px solid red;
+    margin: 50px;
+}
+
+img {
+    overflow: hidden;
+}
+
+#creation img {
+    max-width: 250px;
+    max-height: : 400px;
+}
+
+#Trio img {
+    max-width: 250px;
+    max-height: : 200px;
+    margin: 30px;
+}
+
+#author img {
+    border-radius: 50px 0 50px 0;
+    margin: auto;
+}
+
+#author .card {
+    background-color: #ddd;
+}
+
+#author .card:hover {
+    background-color: lightblue;
+    color: #fff;
+}
+
+.books_cards:hover {
+    border: 2px solid red;
+    background-color: #DDD;
+    border-radius: 50px;
+}
+
+.books_cards:hover img {
+    border-radius: 52px;
+}
+
+.movies_cards:hover {
+    border: 2px solid red;
+    border-radius: 50px;
+}
+
+.movies_cards:hover img {
+    border-radius: 52px;
+}
+
+.trio_card:hover {
+    border: 2px solid red;
+    border-radius: 50px;
+}
+
+.trio_card:hover img {
+    border-radius: 52px;
+}
